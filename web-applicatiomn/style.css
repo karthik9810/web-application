@@ -1,0 +1,310 @@
+nav {
+  background-color: #f2f2f2;
+}
+
+ul {
+  list-style-type: none;
+  margin: 0;
+  padding: 0;
+}
+
+li {
+  display: inline-block;
+  margin: 0 10px;
+}
+.event-section {
+  background-color: lightblue;
+  padding: 20px;
+}
+
+.event-section h2 {
+  margin-bottom: 10px;
+}
+
+.event-section form {
+  display: flex;
+  flex-direction: column;
+  max-width: 400px;
+  margin: 0 auto;
+}
+
+.event-section label {
+  margin-bottom: 5px;
+}
+
+.event-section input[type="text"],
+.event-section input[type="date"],
+.event-section input[type="time"],
+.event-section input[type="number"] {
+  padding: 5px;
+  margin-bottom: 10px;
+}
+
+.event-section button {
+  padding: 10px;
+  background-color: #4CAF50;
+  color: white;
+  border: none;
+  cursor: pointer;
+}
+
+.event-section button:hover {
+  background-color: #45a049;
+}
+
+a {
+  color: #333;
+  text-decoration: none;
+  padding: 10px;
+}
+
+a:hover {
+  background-color: #333;
+  color: #fff;
+}
+#event-section {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+form {
+  display: grid;
+  gap: 10px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input {
+  padding: 5px;
+  width: 100%;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #555;
+}
+#registration-ticketing-section {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+form {
+  display: grid;
+  gap: 10px;
+}
+
+label {
+  font-weight: bold;
+}
+
+input, select {
+  padding: 5px;
+  width: 100%;
+}
+
+button[type="submit"] {
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  border: none;
+  cursor: pointer;
+}
+
+button[type="submit"]:hover {
+  background-color: #555;
+}
+#promotion-marketing-section {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.promotion-tools {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.promotion-tools > div {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.promotion-tools h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.promotion-tools p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  background-color: #555;
+}
+#attendee-management-section {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.attendee-tools {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.attendee-tools > div {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.attendee-tools h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.attendee-tools p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  background-color: #555;
+}
+#guest-speaker-management-section {
+  background-color: #f2f2f2;
+  padding: 20px;
+}
+
+h2 {
+  font-size: 24px;
+  margin-bottom: 10px;
+}
+
+.management-tools {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+  gap: 20px;
+}
+
+.management-tools > div {
+  padding: 20px;
+  background-color: #fff;
+  border-radius: 4px;
+  text-align: center;
+}
+
+.management-tools h3 {
+  font-size: 20px;
+  margin-bottom: 10px;
+}
+
+.management-tools p {
+  font-size: 14px;
+  margin-bottom: 20px;
+}
+
+.btn {
+  display: inline-block;
+  padding: 10px 20px;
+  background-color: #333;
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+}
+
+.btn:hover {
+  background-color: #555;
+}
+#event-feedback {
+  background-color: #f2f2f2;
+  padding: 40px 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  color: #555;
+}
+#calendar-notifications {
+  background-color: #f9f9f9;
+  padding: 40px 0;
+}
+
+.container {
+  max-width: 800px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+h2 {
+  font-size: 32px;
+  margin-bottom: 20px;
+}
+
+p {
+  font-size: 18px;
+  color: #555;
+}
+

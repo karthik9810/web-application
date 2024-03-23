@@ -1,0 +1,197 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>Document</title>
+</head>
+<body>
+  <link rel="stylesheet" href="style.css">
+  <nav>
+    <ul>
+      <li><a href="#">Home</a></li>
+      <li><a href="#">Events</a></li>
+      <li><a href="#">Registration</a></li>
+      <li><a href="#">Ticketing</a></li>
+      <li><a href="#">Promotion</a></li>
+      <li><a href="#">Attendees</a></li>
+      <li><a href="#">Analytics</a></li>
+      <li><a href="#">Feedback</a></li>
+    </ul>
+  </nav>
+  
+  <section class="event-section">
+    <h2>Event Creation and Scheduling</h2>
+    <form>
+      <label for="event-name">Event Name:</label>
+      <input type="text" id="event-name" name="event-name" required>
+  
+      <label for="event-date">Date:</label>
+      <input type="date" id="event-date" name="event-date" required>
+  
+      <label for="event-time">Time:</label>
+      <input type="time" id="event-time" name="event-time" required>
+  
+      <label for="event-location">Location:</label>
+      <input type="text" id="event-location" name="event-location" required>
+  
+      <label for="event-duration">Duration (in hours):</label>
+      <input type="number" id="event-duration" name="event-duration" required>
+  
+      <label for="event-capacity">Capacity:</label>
+      <input type="number" id="event-capacity" name="event-capacity" required>
+  
+      <button type="submit">Create Event</button>
+    </form>
+  </section>
+  
+  <section id="registration-ticketing-section">
+    <h2>Registration and Ticketing</h2>
+    <form>
+      <label for="full-name">Full Name:</label>
+      <input type="text" id="full-name" name="full-name" required>
+  
+      <label for="email">Email:</label>
+      <input type="email" id="email" name="email" required>
+  
+      <label for="event-select">Select Event:</label>
+      <select id="event-select" name="event-select" required>
+        <option value="">Select an event</option>
+        <option value="event1">Event 1</option>
+        <option value="event2">Event 2</option>
+        <option value="event3">Event 3</option>
+      </select>
+  
+      <label for="ticket-quantity">Ticket Quantity:</label>
+      <input type="number" id="ticket-quantity" name="ticket-quantity" min="1" required>
+  
+      <button type="submit">Register and Purchase Tickets</button>
+    </form>
+  </section>
+
+  <section id="promotion-marketing-section">
+    <h2>Event Promotion and Marketing</h2>
+    <div class="promotion-tools">
+      <div class="listing">
+        <h3>Create Event Listing</h3>
+        <p>Create a compelling listing to showcase your event details.</p>
+        <a href="#" class="btn">Create Listing</a>
+      </div>
+      <div class="social-media">
+        <h3>Share on Social Media</h3>
+        <p>Spread the word about your event by sharing it on social media platforms.</p>
+        <a href="#" class="btn">Share on Social Media</a>
+      </div>
+      <div class="email-invitations">
+        <h3>Send Email Invitations</h3>
+        <p>Send personalized email invitations to your target audience.</p>
+        <a href="#" class="btn">Send Email Invitations</a>
+      </div>
+      <div class="flyers">
+        <h3>Generate Event Flyers</h3>
+        <p>Create visually appealing event flyers to attract attendees.</p>
+        <a href="#" class="btn">Generate Flyers</a>
+      </div>
+    </div>
+  </section>
+  <section id="attendee-management-section">
+    <h2>Attendee Management</h2>
+    <div class="attendee-tools">
+      <div class="registration-tracking">
+        <h3>Registration Tracking</h3>
+        <p>Track and manage attendee registrations for your events.</p>
+        <a href="#" class="btn">Manage Registrations</a>
+      </div>
+      <div class="attendee-lists">
+        <h3>Manage Attendee Lists</h3>
+        <p>Organize and update attendee lists for each event.</p>
+        <a href="#" class="btn">Manage Attendee Lists</a>
+      </div>
+      <div class="event-communications">
+        <h3>Event Communications</h3>
+        <p>Send event-related communications or updates to attendees.</p>
+        <a href="#" class="btn">Send Communications</a>
+      </div>
+    </div>
+  </section>
+
+  
+  <section id="guest-speaker-management-section">
+    <h2>Guest and Speaker Management</h2>
+    <div class="management-tools">
+      <div class="guest-list">
+        <h3>Manage Guest Lists</h3>
+        <p>Track and manage guest lists for your events.</p>
+        <a href="#" class="btn">Manage Guest Lists</a>
+      </div>
+      <div class="send-invitations">
+        <h3>Send Invitations</h3>
+        <p>Send personalized invitations to guests and speakers.</p>
+        <a href="#" class="btn">Send Invitations</a>
+      </div>
+      <div class="speaker-details">
+        <h3>Manage Speaker Details</h3>
+        <p>Organize and update speaker or performer details.</p>
+        <a href="#" class="btn">Manage Speaker Details</a>
+      </div>
+    </div>
+  </section>
+ <!-- <section id="resources-logistics-section">
+    <h2>Event Resources and Logistics</h2>
+    <div class="resources-tools">
+      <div class="equipment-bookings">
+        <h3>Equipment Bookings</h3>
+        <p>Manage bookings for event equipment and resources.</p>
+        <a href="#" class="btn">Manage Equipment Bookings</a>
+      </div>
+      <div class="vendor-coordination">
+        <h3>Vendor Coordination</h3>
+        <p>Coordinate with vendors or suppliers for event requirements.</p>
+        <a href="#" class="btn">Coordinate with Vendors</a>
+      </div>
+      <div class="event-setup">
+        <h3>Event Setup and Teardown</h3>
+        <p>Handle event setup and teardown logistics and operations.</p>
+        <a href="#" class="btn">Manage Setup and Teardown</a>
+      </div>
+    </div>
+  </section>
+  <section id="resources-logistics-section">
+    <h2>Event Resources and Logistics</h2>
+    <div class="management-tools">
+      <div class="equipment-bookings">
+        <h3>Manage Equipment Bookings</h3>
+        <p>Book and manage equipment for your events.</p>
+        <a href="#" class="btn">Manage Equipment Bookings</a>
+      </div>
+      <div class="vendor-coordination">
+        <h3>Vendor Coordination</h3>
+        <p>Coordinate with vendors or suppliers for event requirements.</p>
+        <a href="#" class="btn">Coordinate with Vendors</a>
+      </div>
+      <div class="setup-teardown">
+        <h3>Event Setup and Teardown</h3>
+        <p>Handle event setup and teardown activities efficiently.</p>
+        <a href="#" class="btn">Manage Setup and Teardown</a>
+      </div>
+    </div>
+  </section>-->
+  <section id="event-feedback">
+    <div class="container">
+      <h2>Event Feedback and Surveys</h2>
+      <p>Collect feedback from event attendees through surveys or feedback forms to gather insights, measure attendee satisfaction, and identify areas for improvement.</p>
+      <!-- Add more content here if needed -->
+    </div>
+  </section>
+  <section id="calendar-notifications">
+    <div class="container">
+      <h2>Integration with Calendar and Notifications</h2>
+      <p>Sync event schedules with your personal calendar and receive automated event reminders, updates, or notifications.</p>
+      <!-- Add more content here if needed -->
+    </div>
+  </section>
+  
+
+</body>
+</html>
